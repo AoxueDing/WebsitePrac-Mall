@@ -1,0 +1,223 @@
+            .sitebar{
+                background-color: #333;
+                height: 40px;
+                width: 100%;
+            }
+            .container{
+                width: 1226px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .topbar{
+                /*当height和line-height设置为一个高度时，中间的文字会垂直剧中*/
+                height: 40px;
+                line-height: 40px;
+                position: relative;
+                font-size: 12px;
+                color: #b0b0b0;
+                background: #333;
+            }
+            .topbar_menu{
+                float: left;
+            }
+            .topbar_info{
+                float: right;
+            }
+            a{
+                text-decoration: none;
+            }
+            .topbar a{
+                color: #b0b0b0;
+            }
+            /*设置a标签指向时的状态*/
+            .topbar a:hover{
+                color: white;
+            }
+            .downimg{
+                position: absolute;
+                top: 40px;
+                left: 430px;
+                z-index: 1;
+                display: none;
+            }
+            /*==============================*/
+            .siteheader{
+                background: white;
+                height: 100px;
+                width: 100%;
+            }
+            .headerlogo{
+                float: left;
+                margin-top: 22px;
+                width: 62px;
+                height: 100px;
+                background-image: url(/image/logo.png);
+                background-size: 56px;
+                background-repeat: no-repeat;
+            }
+            .headernav{
+                float: left;
+                width: 850px;
+            }
+            .headernav ul li{
+                position: relative;
+                float: left;
+                height: 88px;
+                margin: 0px;
+                padding: 12px 0 0 30px;
+                list-style-type: none;
+                font-size: 16px;
+            }
+            .siteheader a{
+                color: black;
+            }
+            .siteheader a:hover{
+                color: #ff6700;
+            }
+            .headersearchtext{
+                width: 220px;
+                height: 48px;
+                font-size: 14px;
+                margin-top: 20px;
+            }
+            .headersearchbutton{
+                position: absolute;
+                width: 70px;
+                height: 48px;
+                font-size: 20px;
+                margin-top: 20px;
+            }
+            /*====================*/
+            .hidediv{
+                position: absolute;
+                clear: both;
+                border-top: 1px solid gray;
+                width: 100%;
+                z-index: 1;
+                background-color: white;
+                display: none;
+            }
+            .hidediv ul li{
+                float: left;
+                list-style: none;
+            }
+            .imageline{
+                padding-left: 20px;
+                padding-right: 20px;
+                border-right: 1px solid gray;
+            }
+            
+            .sitebanner{
+                clear: both;
+                position: relative;
+                height: 460px;
+                /*内容超出460高度的部分就会隐藏*/
+                overflow: hidden;
+            }
+            
+            .sitebanner .container{
+                background-image: url(/image/banner1.webp);
+                /*让特别大的图片能够直接适应到.container的大小*/
+                background-size: contain;
+            }
+            .sitemenu{
+                width: 234px;
+                height: 460px;
+                font-size: 14px;
+                /*
+                    表示颜色的方式 # rr gg bb 取值都是从00-ff
+                    如果需要有透明显示，使用# rr gg bb aa
+                    其中aa表示透明度。00表示全透明，ff表示完全不透明
+                */
+                background-color: #000000aa;
+            }
+            .sitemenu ul{
+                padding: 0px;
+            }
+            .sitemenu ul li{
+                list-style: none;
+                position: relative;
+                display: block;
+                color: white;
+                height: 42px;
+                line-height: 42px;
+                padding-left: 30px;
+            }
+            .menudiv{
+                position: absolute;
+                left: 234px;
+                background-color: white;
+                display: none;
+            }
+            .menudiv .menucontainer{
+                width: 991px;
+            }
+            .menudiv ul li{
+                list-style: none;
+                float: left;
+                color: black;
+                background-repeat: no-repeat;
+                padding-right: 120px;
+                margin: 21px;
+            }
+            .menudiv ul li span{
+                padding-left: 20px;
+            }
+            .sitemain{
+                height: 1000px;
+                margin-top: 10px;
+                padding-top: 35px;
+                background-color: #ddd;
+            }
+            .main_content{
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .main_content img{
+                margin: 3px;
+            }
+            
+            .sitevideo{
+                width: 100%;
+                background-color: white;
+                height: 357px;
+            }
+            .sitevideo .title{
+                float: left;
+                font-size: 22px;
+                font-weight: 200;
+            }
+            .sitevideo .more{
+                float: right;
+                font-size: 22px;
+                font-weight: 200;
+            }
+            .videodiv{
+                clear: both;
+            }
+            .videodiv ul{
+                padding: 0px;
+                margin: 0px;
+            }
+            .videodiv ul li{
+                list-style: none;
+                float: left;
+                padding: 0px;
+                margin: 0px;
+            }
+            .videodiv ul li img{
+                width: 296px;
+                height: 180px;
+                margin-right: 10px;
+                margin-bottom: 14px;
+            }
+            
+            .videodiv h3{
+                font-size: 14px;
+                font-weight: 400;
+                text-align: center;
+            }
+            .videodiv p{
+                font-size: 12px;
+                text-align: center;
+            }
